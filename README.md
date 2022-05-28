@@ -1,4 +1,21 @@
-# Intrexx
+# Container for debugging container network problems
+
+Pre-installed tools and packages
+* SSH
+* OpenSSL
+* net-tools
+* iputils-ping
+* iproute2
+* ethtool
+* dnsutils
+* dnsdiag
+* arping
+* nmap
+* tcpdump
+* netcat-openbsd
+* wget
+* curl
+
 
 ## Base image
 
