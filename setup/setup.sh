@@ -13,7 +13,8 @@ apt-get upgrade -qy
 
 apt install -qy \
     mc git rsync net-tools iputils-ping iproute2 ethtool \
-    dnsutils dnsdiag arping nmap tcpdump netcat-openbsd
+    dnsutils dnsdiag arping nmap tcpdump netcat-openbsd \
+    telnet
 
 # cleanup
 apt-get clean -qy

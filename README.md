@@ -12,6 +12,7 @@ Pre-installed tools and packages
 * arping
 * nmap
 * tcpdump
+* telnet
 * netcat-openbsd
 * wget
 * curl
