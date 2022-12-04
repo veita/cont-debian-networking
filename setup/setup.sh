@@ -4,8 +4,6 @@ set -ex
 
 SUITE=$(lsb_release -sc)
 
-IX_INSTALL_DIR="/opt/intrexx"
-
 export DEBIAN_FRONTEND=noninteractive
 
 apt-get update -qy

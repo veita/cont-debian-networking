@@ -23,14 +23,14 @@ Pre-installed tools and packages
 The base image is `localhost/debian-systemd-${SUITE}` where `${SUITE}` is either `BUSTER`,
 or `BULLSEYE`, or `BOOKWORM`.
 
-The base image is provided by the [debian-systemd](https://github.com/veita/debian-systemd)
+The base image is provided by the [debian-systemd](https://github.com/veita/cont-debian-systemd)
 project.
 
 
 ## Building the container
 
 ```bash
-git clone https://github.com/veita/debian-networking.git
+git clone https://github.com/veita/cont-debian-networking.git debian-networking
 cd debian-networking
 ./build-image.sh
 
